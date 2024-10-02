@@ -6,7 +6,7 @@
 /*   By: rbutzke <rbutzke@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/27 10:39:51 by rbutzke           #+#    #+#             */
-/*   Updated: 2024/09/27 11:11:01 by rbutzke          ###   ########.fr       */
+/*   Updated: 2024/10/01 12:39:20 by rbutzke          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ class Response
 	public:
 		Response();
 		~Response();
-
 
 		void setStatus(std::string value, std::string reason);
 		void setType(std::string type);
